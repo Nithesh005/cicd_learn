@@ -2,3 +2,6 @@ name: Flask CI Pipeline
 on:
   push:
     branches: [ main ]
+
+jobs:
+  build:
