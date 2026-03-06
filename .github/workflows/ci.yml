@@ -19,3 +19,5 @@ jobs:
     - name: Run tests
       run: |
           python -m pytest tests/
+    - name: Build Docker image
+      run: docker build -t cicd_learn .
